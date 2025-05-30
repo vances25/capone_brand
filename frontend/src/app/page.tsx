@@ -143,8 +143,8 @@ export default function Home() {
           <p>Ready to tap in with the real ones?</p>
 
         <div className={styles.socials}>
-          <a href={currentLinks && currentLinks.telegram}><img src="/telegram.png" alt="Telegram" /></a>
-          <a href={currentLinks && currentLinks.instagram}><img src="/instagram.webp" alt="Instagram" /></a>
+          <a href={currentLinks ? currentLinks.telegram: "/"}><img src="/telegram.png" alt="Telegram" /></a>
+          <a href={currentLinks ? currentLinks.instagram: "/"}><img src="/instagram.webp" alt="Instagram" /></a>
         </div>
 
 
