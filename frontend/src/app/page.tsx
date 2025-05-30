@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 
 
 interface Links{
-  "instgram": string,
+  "instagram": string,
   "telegram": string
 }
 
