@@ -75,7 +75,7 @@ export default function Home() {
 
 
       <div className={styles.logo}>
-      <img id="logo" src="/logo.png"></img>
+      <img id="logo" src="/fire_logo.png"></img>
       </div>
       
       <section className={styles.banner}>

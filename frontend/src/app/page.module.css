@@ -19,7 +19,6 @@
 .logo img{
   max-width: 300px;
   transform: rotate(-6deg);
-  filter: brightness(0) saturate(100%) invert(61%) sepia(93%) saturate(359%) hue-rotate(88deg) brightness(101%) contrast(101%);
 }
 
 .showcase{
@@ -54,6 +53,7 @@
   padding: 10px;
   width: 60%;
   color: white;
+  border: none;
 }
 
 .join img{
